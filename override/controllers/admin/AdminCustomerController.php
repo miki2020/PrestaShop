@@ -58,6 +58,15 @@ class AdminCustomerController extends AdminCustomerControllerCore
 					'autocomplete' => false
 				),
 				array(
+					'type' => 'text',
+					'prefix' => '',
+					'label' => $this->l('Height'),
+					'name' => 'height',
+					'col' => '4',
+					'required' => false,
+					'hint' => $this->l('Customer height')
+				),
+				array(
 					'type' => 'password',
 					'label' => $this->l('Password'),
 					'name' => 'passwd',
