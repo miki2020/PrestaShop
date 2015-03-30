@@ -1,3 +1,4 @@
+<?php
 class AuthController extends AuthControllerCore
 {
   protected function processSubmitAccount()
